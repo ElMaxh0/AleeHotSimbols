@@ -1,0 +1,113 @@
+.alldataHome{
+  width: 100%;
+  align-items: center;
+  height: 100%;
+}
+.bgimage{
+filter: drop-shadow(5px 5px 8px green);
+background-repeat: no-repeat;
+background-position: 15%;
+background-size: 101%;
+margin-top: 0.5vh;
+opacity: 1;
+}
+.bg1{
+  background-image: url(../assets/imagem/01.png);
+
+}
+.bg2{
+  background-image: url(../assets/imagem/eu.png);
+
+}
+.bg3{
+  background-image: url(../assets/imagem/01.png);
+
+}
+.bg4{
+  background-image: url("../assets/imagem/desenhos ver78.png");
+}
+.bg5{
+  background-image: url(../assets/imagem/terms.png);
+
+}
+.containerData{
+  margin-top: 30%;
+  filter: drop-shadow(5px 5px 8px green);
+  position:relative;
+  padding: 10px;
+  background-color: #f7f7f7;
+  text-align: center;
+  max-width: 500px;
+  height: 80%;
+  margin: auto;
+  color: #3b5998;
+  border: 1px solid f6f6f6;
+}
+#Copirights{
+  color: #beecd5;
+}
+.bt{
+
+  border: 1px solid #25692A;
+  border-radius: 4px;
+  align-items: center;
+  display: inline-block;
+  cursor: pointer;
+  font-family: Verdana;
+  font-weight: bold;
+  font-size: 13px;
+  padding: 6px 10px;
+  text-decoration: none;
+    }
+.bt:active {
+  position: relative;
+  top: 2px;
+}
+.btazul{
+  border-color: #46a7f5;
+  background: linear-gradient(to bottom, #86c6f8 5%, #46a7f5 100%);
+  box-shadow: inset 0px 1px 0px 0px #d7ecfd;
+  color: #fff;
+  text-shadow: 0px 1px 0px #528009;
+}
+.btazul:hover {
+  background: linear-gradient(to bottom, #46a7f5 5%, #86c6f8 100%);
+}
+.btDarkazul{
+  border-color: #46a7f5;
+  background: linear-gradient(to bottom, #4567ff 5%, #2b9bf7 100%);
+  box-shadow: inset 0px 1px 0px 0px #d7ecfd;
+  color: #fff;
+  text-shadow: 0px 1px 0px #528009;
+}
+.btDarkazul:hover {
+  background: linear-gradient(to bottom, #85bfee 5%, #2b9e9f 100%);
+}
+.btred{
+  border-color: #f59f78;
+  background: linear-gradient(to bottom, #ee1818 5%, #fc6f12 100%);
+  box-shadow: inset 0px 1px 0px 0px #d7ecfd;
+  color: #fff;
+  text-shadow: 0px 1px 0px #528009;
+}
+.btred:hover {
+  background: linear-gradient(to bottom, #f3a96c 5%, #e23737 100%);
+}
+.btgreen{
+  border-color: #adfd9c;
+  background: linear-gradient(to bottom, #00f566 5%, #00fa00 100%);
+  box-shadow: inset 0px 1px 0px 0px #d7ecfd;
+  color: #fff;
+  text-shadow: 0px 1px 0px #528009;
+}
+.btgreen:hover {
+  background: linear-gradient(to bottom, #38d424 5%, #18be2e 100%);
+}
+.scrolling{
+  height: 70vh;
+  overflow-y: scroll;
+}
+.termsbutton{
+  position: absolute;
+  left:53vw;
+}
